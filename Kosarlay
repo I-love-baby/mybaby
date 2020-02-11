@@ -7,7 +7,7 @@ normal=`echo "\033[m"`
     fgred=`echo "\033[31m"`
 YELLOW='\033[1;33m'
 printf "${menu}                   𝐊 𝐎 𝐒 𝐀 𝐑 𝐋 𝐀 𝐘               "
-cat /data/data/com.termux/files/home/BypassV1/pytransform/BypassV1 | lolcat -a -d 5
+cat /data/data/com.termux/files/home/BypassV1/pytransform/KSL | lolcat -a -d 5
    ./Header
     
     printf "\n${menu}▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣${normal}\n"
