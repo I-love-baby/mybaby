@@ -294,7 +294,7 @@ rm -rf /sdcard/Tencent/MobileQQ/dov_ptv_template_dov &> /dev/null
 rm -rf /sdcard/Tencent/MobileQQ/WebViewCheck &> /dev/null
 rm -rf /sdcard/Tencent/MobileQQ/log &> /dev/null
 rm -rf /data/data/com.pubg.krmobile/code_cache/* &> /dev/null
-            rm -rf /data/data/com.tencent.ig/app_appcache &> /dev/null
+rm -rf /data/data/com.tencent.ig/app_appcache &> /dev/null
 rm -rf /data/data/com.tencent.ig/app_bugly &> /dev/null
 rm -rf /data/data/com.tencent.ig/cache &> /dev/null
 rm -rf /data/data/com.tencent.ig/code_cache &> /dev/null
