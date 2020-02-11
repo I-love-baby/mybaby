@@ -62,15 +62,18 @@ then
 mkdir /storage/emulated/0/Android/KSL.Korea
 mkdir /storage/emulated/0/Android/KSL.Paks
 fi
-cp -R /storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/core_patch_0.16.0.11462.pak /storage/emulated/0/Android/KSL.Paks/core_patch_0.16.0.11860.pak
-cp -R /storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/core_patch_0.16.5.11560.pak /storage/emulated/0/Android/KSL.Paks/core_patch_0.16.0.11960.pak
 rsync -avh /storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/ /storage/emulated/0/Android/KSL.Korea/ &> /dev/null
 #mv /storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/* /storage/emulated/0/Android/KSL.Korea &> /dev/null
+sleep 4
+cp -R /storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/core_patch_0.16.0.11462.pak /storage/emulated/0/Android/KSL.Paks/core_patch_0.16.0.11860.pak &> /dev/null
+cp -R /storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/core_patch_0.16.5.11560.pak /storage/emulated/0/Android/KSL.Paks/core_patch_0.16.0.11960.pak &> /dev/null
+cp -R /storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/SrcVersion.ini /storage/emulated/0/Android
 sleep 9
-mv /storage/emulated/0/Android/KSL.Paks/* /storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks
-base64 --decode /data/data/com.termux/files/home/KSL/🎮 > /storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/game_patch_0.16.0.11760.pak
+mv /storage/emulated/0/Android/KSL.Paks/* /storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks &> /dev/null
+cp -R /data/data/com.termux/files/home/KSL/SrcVersion.ini /storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved &> /dev/null
+base64 --decode /data/data/com.termux/files/home/KSL/🎮 > /storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/game_patch_0.16.0.11760.pak &> /dev/null
 echo " "
-./progress
+./progress  
 echo " "
 am start -n com.pubg.krmobile/com.epicgames.ue4.SplashActivity
 sleep 6
@@ -174,7 +177,9 @@ chmod 755 /data/data/com.pubg.krmobile/lib/libtprt.so
 echo " "
 rsync -avh /storage/emulated/0/Android/KSL.Korea/ /storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/ &> /dev/null
 sleep 9
+mv /storage/emulated/0/Android/SrcVersion.ini /storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved &> /dev/null
 rm -rf /storage/emulated/0/Android/KSL.Korea &> /dev/null
+rm -rf /storage/emulated/0/Android/KSL.Paks &> /dev/null
 end=`date +%s`
 runtime=$((end-start))
 runmin=$((runtime/60))
