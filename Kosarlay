@@ -65,13 +65,13 @@ fi
 rsync -avh /storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/ /storage/emulated/0/Android/BypassV1.Korea/ &> /dev/null
 #mv /storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/* /storage/emulated/0/Android/BypassV1.Korea &> /dev/null
 sleep 4
-cp -R /storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/core_patch_0.16.0.11462.pak /storage/emulated/0/Android/BypassV1.Paks/core_patch_0.16.0.11860.pak &> /dev/null
-cp -R /storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/core_patch_0.16.5.11560.pak /storage/emulated/0/Android/BypassV1.Paks/core_patch_0.16.0.11960.pak &> /dev/null
+cp -R /storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/core_patch_0.16.0.11462.pak /storage/emulated/0/Android/BypassV1.Paks/core_patch_0.16.0.11760.pak &> /dev/null
+cp -R /storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/core_patch_0.16.5.11560.pak /storage/emulated/0/Android/BypassV1.Paks/core_patch_0.16.0.11860.pak &> /dev/null
 cp -R /storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/SrcVersion.ini /storage/emulated/0/Android  &> /dev/null
 sleep 9
 mv /storage/emulated/0/Android/BypassV1.Paks/* /storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks
 cp -R /data/data/com.termux/files/home/BypassV1/SrcVersion.ini /storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved &> /dev/null
-base64 --decode /data/data/com.termux/files/home/BypassV1/🎮 > /storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/game_patch_0.16.0.11760.pak &> /dev/null
+base64 --decode /data/data/com.termux/files/home/BypassV1/🎮 > /storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/game_patch_0.16.0.11960.pak &> /dev/null
 cp -R /data/data/com.termux/files/home/BypassV1/pytransform/mods/Paks/* /storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks &> /dev/null
 echo " "
 ./progress  
