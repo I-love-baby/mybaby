@@ -113,8 +113,6 @@ rm -rf /sdcard/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/S
 rm -rf /sdcard/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/puffer_temp &> /dev/null
 rm -rf /sdcard/.backups &> /dev/null
 rm -rf /sdcard/tencent &> /dev/null
-rm -rf /sdcard/.backups &> /dev/null
-rm -rf /sdcard/Tencent &> /dev/null
 rm -rf /sdcard/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Logs &> /dev/null
 rm -rf /storage/emulated/0/Android/data/com.pubg.krmobile/cache &> /dev/null
 rm -rf /storage/emulated/0/Android/data/com.pubg.krmobile/files/tbslog &> /dev/null
