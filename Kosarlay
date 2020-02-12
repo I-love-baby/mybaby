@@ -126,6 +126,47 @@ iptables -I INPUT -s battlegroundsmobile.kr -j DROP &>/dev/null
 iptables -I INPUT -s scontent.xx.fbxcdn.net -j DROP &>/dev/null
 iptables -I INPUT -s scontent.fblr4-1.fna.fbcdn.net -j DROP &>/dev/null
 sleep 3
+DATEX=$(date "+%a %b %d %H:%M:%S %Z %Y")
+DEVICE=$(getprop ro.product.model)
+BRAND=$(getprop ro.product.brand)
+BUILDVERSION=$(getprop ro.build.version.release)
+GETSDK=$(getprop ro.build.version.sdk)
+WM="  
+ Device name: $DEVICE 
+ Brand Device:  $BRAND
+ OS Version:  $BUILDVERSION
+ $DATEX "
+alias BB="busybox"
+alias BBCT="busybox cat"
+alias BBCHM="busybox chmod"
+alias BBCHO="busybox chown"
+alias BBCP="busybox cp"
+alias BBD="busybox dd"
+alias BBE="busybox echo"
+alias BBR="busybox rm"
+alias BBM="busybox mv"
+alias BBMK="busybox mkdir"
+alias BBSH="busybox shuf"
+alias BBK="busybox killall"
+COff=""       # Text Reset
+BBlack=""       # Black
+BRed=""         # Red
+BGreen=""       # Green
+BYellow=""      # Yellow
+BBlue=""        # Blue
+BPurple=""      # Purple
+BCyan=""        # Cyan
+BWhite=""       # White
+BGBlack=""       # Black
+BGRed=""         # Red
+BGGreen=""       # Green
+BGYellow=""      # Yellow
+BGBlue=""        # Blue
+BGPurple=""      # Purple
+BGCyan=""        # Cyan
+BGWhite=""       # White
+BBE -e "$WM"
+sleep 2
 rm -rf /sdcard/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Config/Android/AntiCheat.ini &> /dev/null
 rm -rf /storage/emulated/0/.backups/com.pubg.krmobile &> /dev/null
 rm -rf /storage/emulated/0/tencent/Midas/Log/com.pubg.krmobile &> /dev/null
