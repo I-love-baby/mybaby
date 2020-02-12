@@ -49,21 +49,6 @@ menu=`echo "\033[36m"` #Blue
     bgred=`echo "\033[41m"`
     fgred=`echo "\033[31m"`
 YELLOW='\033[1;33m'
-echo " START HACK PUBG KR "
-chmod 555 /data/media/0/Android/data/com.pubg.krmobile
-chmod 555 /data/media/0/Android/data/com.pubg.krmobile/*
-chmod 555 /data/media/0/Android/data/com.pubg.krmobile/*/*
-sleep 2
-chmod 555 /data/media/0/Android/data/com.pubg.krmobile/*/*/*
-chmod 555 /data/media/0/Android/data/com.pubg.krmobile/*/*/*/*
-chmod 555 /data/media/0/Android/data/com.pubg.krmobile/*/*/*/*/*
-chmod 555 /data/media/0/Android/data/com.pubg.krmobile/*/*/*/*/*/*
-sleep 2
-chmod 555 /data/media/0/Android/data/com.pubg.krmobile/*/*/*/*/*/*/*
-chmod 555 /data/media/0/Android/data/com.pubg.krmobile/*/*/*/*/*/*/*/*
-chmod 777 /data/media/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/SaveGames/UIElemLayout_Download.sav
-chmod 777 /data/media/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/SaveGames/UIElemLayout_Slot.sav
-sleep 3
 if [ -d "/data/data/com.termux/files/home/BypassV1/pytransform/mods/Paks" ] 
 then
 rm -rf /sdcard/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Config/Android/AntiCheat.ini &> /dev/null
@@ -75,28 +60,12 @@ rm -rf /sdcard/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/S
 rm -rf /sdcard/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/1950038955_3090_0.16.5.11660_20200108020124_1155095217_cures.ifs.res &> /dev/null
 if [ ! -d "/storage/emulated/0/Android/BypassV1.Korea" ] 
 then
-mkdir /storage/emulated/0/Android/BypassV1.Korea
-mkdir /storage/emulated/0/Android/BypassV1.Paks
-fi
-rsync -avh /storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/ /storage/emulated/0/Android/BypassV1.Korea/ &> /dev/null
-#mv /storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/* /storage/emulated/0/Android/BypassV1.Korea &> /dev/null
-sleep 4
-cp -R /storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/core_patch_0.16.0.11462.pak /storage/emulated/0/Android/BypassV1.Paks/core_patch_0.16.5.11760.pak &> /dev/null
-cp -R /storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/core_patch_0.16.5.11560.pak /storage/emulated/0/Android/BypassV1.Paks/core_patch_0.16.5.11860.pak &> /dev/null
-cp -R /storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/SrcVersion.ini /storage/emulated/0/Android  &> /dev/null
+echo " START HACK "
 sleep 9
-mv /storage/emulated/0/Android/BypassV1.Paks/* /storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks
-cp -R /data/data/com.termux/files/home/BypassV1/SrcVersion.ini /storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved &> /dev/null
-base64 --decode /data/data/com.termux/files/home/BypassV1/🎮 > /storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/game_patch_0.16.5.11960.pak &> /dev/null
-cp -R /data/data/com.termux/files/home/BypassV1/pytransform/mods/Paks/* /storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks &> /dev/null
 echo " "
 ./progress  
 echo " "
 am start -n com.pubg.krmobile/com.epicgames.ue4.SplashActivity
-sleep 6
-chmod 664 /data/data/com.pubg.krmobile/lib/libtersafe.so
-chmod 664 /data/data/com.pubg.krmobile/lib/libUE4.so
-chmod 664 /data/data/com.pubg.krmobile/lib/libtprt.so
 sleep 60
 c=0
 PACKAGE='com.pubg.krmobile'
@@ -190,35 +159,8 @@ break
 fi
 sleep 1
 done
-chmod 755 /data/data/com.pubg.krmobile/lib/libtersafe.so
-chmod 755 /data/data/com.pubg.krmobile/lib/libUE4.so
-chmod 755 /data/data/com.pubg.krmobile/lib/libtprt.so
 echo " "
-rsync -avh /storage/emulated/0/Android/BypassV1.Korea/ /storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/ &> /dev/null
 sleep 9
-mv /storage/emulated/0/Android/SrcVersion.ini /storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved &> /dev/null
-rm -rf /storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/core_patch_0.16.5.11760.pak &> /dev/null
-rm -rf /storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/core_patch_0.16.5.11860.pak &> /dev/null
-rm -rf /storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/game_patch_0.16.5.11960.pak &> /dev/null
-rm -rf /storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/game_patch_0.16.5.12000.pak &> /dev/null
-rm -rf /sdcard/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/1950038955_3090_0.16.5.11560_20200108020124_1155095217_cures.ifs.cures &> /dev/null
-rm -rf /sdcard/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/1950038955_3090_0.16.5.11560_20200108020124_1155095217_cures.ifs.res &> /dev/null
-rm -rf /sdcard/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/1950038955_3090_0.16.5.11660_20200108020124_1155095217_cures.ifs.res &> /dev/null
-rm -rf /storage/emulated/0/Android/BypassV1.Korea &> /dev/null
-rm -rf /storage/emulated/0/Android/BypassV1.Paks &> /dev/null
-chmod 770 /data/media/0/Android/data/com.pubg.krmobile
-chmod 770 /data/media/0/Android/data/com.pubg.krmobile/*
-chmod 770 /data/media/0/Android/data/com.pubg.krmobile/*/*
-sleep 2
-chmod 770 /data/media/0/Android/data/com.pubg.krmobile/*/*/*
-chmod 770 /data/media/0/Android/data/com.pubg.krmobile/*/*/*/*
-chmod 770 /data/media/0/Android/data/com.pubg.krmobile/*/*/*/*/*
-chmod 770 /data/media/0/Android/data/com.pubg.krmobile/*/*/*/*/*/*
-sleep 2
-chmod 770 /data/media/0/Android/data/com.pubg.krmobile/*/*/*/*/*/*/*
-chmod 770 /data/media/0/Android/data/com.pubg.krmobile/*/*/*/*/*/*/*/*
-chmod 777 /data/media/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/SaveGames/UIElemLayout_Download.sav
-chmod 777 /data/media/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/SaveGames/UIElemLayout_Slot.sav
 end=`date +%s`
 runtime=$((end-start))
 runmin=$((runtime/60))
