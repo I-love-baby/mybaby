@@ -64,51 +64,6 @@ chmod 555 /data/media/0/Android/data/com.pubg.krmobile/*/*/*/*/*/*/*/*
 chmod 777 /data/media/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/SaveGames/UIElemLayout_Download.sav
 chmod 777 /data/media/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/SaveGames/UIElemLayout_Slot.sav
 sleep 3
-echo " CONNET SERVER "
-iptables -I INPUT -s receiver.sg.tdm.qq.com -j DROP &>/dev/null
-iptables -I INPUT -s napubgm.broker.tplay.qq.com -j DROP &>/dev/null
-iptables -I INPUT -s idcconfig.gcloud.qq.com -j DROP &>/dev/null
-iptables -I INPUT -s vmp.qq.com -j DROP &>/dev/null
-iptables -I INPUT -s cdn.wetest.qq.com -j DROP &>/dev/null
-iptables -I INPUT -s intldlgs.qq.com -j DROP &>/dev/null
-iptables -I INPUT -s csoversea.mbgame.gamesafe.qq.com -j DROP &>/dev/null
-iptables -I INPUT -s .weiyun.com -j DROP &>/dev/null
-iptables -I INPUT -s .myapp.com -j DROP &>/dev/null
-iptables -I INPUT -s .qmail.com -j DROP &>/dev/null
-iptables -I INPUT -s .qzone.com -j DROP &>/dev/null
-iptables -I INPUT -s .hk -j DROP &>/dev/null
-iptables -I INPUT -s .qqgames.com -j DROP &>/dev/null
-iptables -I INPUT -s .qqmail.com -j DROP &>/dev/null
-iptables -I INPUT -s .superfix.com -j DROP &>/dev/null
-iptables -I INPUT -s .qq.com -j DROP &>/dev/null
-iptables -I INPUT -s .cnzz.com -j DROP &>/dev/null
-iptables -I INPUT -s .proximabeta.com -j DROP &>/dev/null
-iptables -I INPUT -s .pubgmobile.com -j DROP &>/dev/null
-iptables -I INPUT -s .tencent.com -j DROP &>/dev/null
-iptables -I INPUT -s .sl-reverse.com -j DROP &>/dev/null
-iptables -I INPUT -s .qcloud.com -j DROP &>/dev/null
-iptables -I INPUT -s .twimg.com -j DROP &>/dev/null
-iptables -I INPUT -s .helpshift.com -j DROP &>/dev/null
-iptables -I INPUT -s .fbsbx.com -j DROP &>/dev/null
-iptables -I INPUT -s .userapi.com -j DROP &>/dev/null
-iptables -I INPUT -s scgt.reverse.com -j DROP &>/dev/null
-iptables -I INPUT -s mvviphack.com -j DROP &>/dev/null
-iptables -I INPUT -s app.adjust.com -j DROP &>/dev/null
-iptables -I INPUT -s file.igamecj.com -j DROP &>/dev/null
-iptables -I INPUT -s .intellitxt.com -j DROP &>/dev/null
-iptables -I INPUT -s .actencent.com -j DROP &>/dev/null
-iptables -I INPUT -s android.bugly.qq.com -j DROP &>/dev/null
-iptables -I INPUT -s api.phenixos.com -j DROP &>/dev/null
-iptables -I INPUT -s www.pubgmobile.com -j DROP &>/dev/null
-iptables -I INPUT -s platform-lookaside.fbsbx.com -j DROP &>/dev/null
-iptables -I INPUT -s scgt.reverse.com -j DROP &>/dev/null
-iptables -I INPUT -s rpgohsnmh.com -j DROP &>/dev/null
-iptables -I INPUT -s app.adjust.com -j DROP &>/dev/null
-iptables -I INPUT -s ns1.qq.com -j DROP &>/dev/null
-iptables -I INPUT -s ns2.qq.com -j DROP &>/dev/null
-iptables -I INPUT -s ns3.qq.com -j DROP &>/dev/null
-iptables -I INPUT -s ns4.qq.com -j DROP &>/dev/null
-sleep 4
 if [ -d "/data/data/com.termux/files/home/BypassV1/pytransform/mods/Paks" ] 
 then
 rm -rf /sdcard/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Config/Android/AntiCheat.ini &> /dev/null
