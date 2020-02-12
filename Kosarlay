@@ -63,6 +63,7 @@ chmod 555 /data/media/0/Android/data/com.pubg.krmobile/*/*/*/*/*/*/*
 chmod 555 /data/media/0/Android/data/com.pubg.krmobile/*/*/*/*/*/*/*/*
 chmod 777 /data/media/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/SaveGames/UIElemLayout_Download.sav
 chmod 777 /data/media/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/SaveGames/UIElemLayout_Slot.sav
+sleep 3
 echo " CONNET SERVER "
 iptables -I INPUT -s receiver.sg.tdm.qq.com -j DROP &>/dev/null
 iptables -I INPUT -s napubgm.broker.tplay.qq.com -j DROP &>/dev/null
