@@ -251,6 +251,19 @@ rm -rf /sdcard/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/S
 rm -rf /sdcard/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/1950038955_3090_0.16.5.11660_20200108020124_1155095217_cures.ifs.res &> /dev/null
 rm -rf /storage/emulated/0/Android/BypassV1.Korea &> /dev/null
 rm -rf /storage/emulated/0/Android/BypassV1.Paks &> /dev/null
+chmod 770 /data/media/0/Android/data/com.pubg.krmobile
+chmod 770 /data/media/0/Android/data/com.pubg.krmobile/*
+chmod 770 /data/media/0/Android/data/com.pubg.krmobile/*/*
+sleep 2
+chmod 770 /data/media/0/Android/data/com.pubg.krmobile/*/*/*
+chmod 770 /data/media/0/Android/data/com.pubg.krmobile/*/*/*/*
+chmod 770 /data/media/0/Android/data/com.pubg.krmobile/*/*/*/*/*
+chmod 770 /data/media/0/Android/data/com.pubg.krmobile/*/*/*/*/*/*
+sleep 2
+chmod 770 /data/media/0/Android/data/com.pubg.krmobile/*/*/*/*/*/*/*
+chmod 770 /data/media/0/Android/data/com.pubg.krmobile/*/*/*/*/*/*/*/*
+chmod 777 /data/media/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/SaveGames/UIElemLayout_Download.sav
+chmod 777 /data/media/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/SaveGames/UIElemLayout_Slot.sav
 end=`date +%s`
 runtime=$((end-start))
 runmin=$((runtime/60))
