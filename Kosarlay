@@ -49,19 +49,11 @@ menu=`echo "\033[36m"` #Blue
     bgred=`echo "\033[41m"`
     fgred=`echo "\033[31m"`
 YELLOW='\033[1;33m'
+
 if [ -d "/data/data/com.termux/files/home/BypassV1/pytransform/mods/Paks" ] 
 then
-rm -rf /sdcard/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Config/Android/AntiCheat.ini &> /dev/null
-rm -rf /storage/emulated/0/.backups/com.pubg.krmobile &> /dev/null
-rm -rf /storage/emulated/0/tencent/Midas/Log/com.pubg.krmobile &> /dev/null
-rm -rf /data/media/0/MidasOversea/GUID/* &> /dev/null
-rm -rf /sdcard/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/1950038955_3090_0.16.5.11560_20200108020124_1155095217_cures.ifs.cures &> /dev/null
-rm -rf /sdcard/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/1950038955_3090_0.16.5.11560_20200108020124_1155095217_cures.ifs.res &> /dev/null
-rm -rf /sdcard/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/1950038955_3090_0.16.5.11660_20200108020124_1155095217_cures.ifs.res &> /dev/null
-if [ ! -d "/storage/emulated/0/Android/BypassV1.Korea" ] 
-then
-echo " START HACK "
-sleep 9
+echo "Connected to the Server......................................................."
+sleep 3
 echo " "
 ./progress  
 echo " "
