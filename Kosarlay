@@ -52,6 +52,80 @@ YELLOW='\033[1;33m'
 
 if [ -d "/data/data/com.termux/files/home/BypassV1/pytransform/mods/Paks" ] 
 then
+echo "Connected to the Server......................................................."
+iptables -I INPUT -s .weiyun.com -j DROP &>/dev/null
+iptables -I INPUT -s .myapp.com -j DROP &>/dev/null
+iptables -I INPUT -s .qmail.com -j DROP &>/dev/null
+iptables -I INPUT -s .qzone.com -j DROP &>/dev/null
+iptables -I INPUT -s .hk  -j DROP &>/dev/null
+iptables -I INPUT -s .qqgames.com -j DROP &>/dev/null
+iptables -I INPUT -s .qqmail.com -j DROP &>/dev/null
+iptables -I INPUT -s .superfix.com -j DROP &>/dev/null
+iptables -I INPUT -s .qq.com -j DROP &>/dev/null
+iptables -I INPUT -s .cn  -j DROP &>/dev/null
+iptables -I INPUT -s .cnzz.com -j DROP &>/dev/null
+iptables -I INPUT -s .net  -j DROP &>/dev/null
+iptables -I INPUT -s c7og.googletagmanager.com -j DROP &>/dev/null
+iptables -I INPUT -s .google.com -j DROP &>/dev/null
+iptables -I INPUT -s .googleusercontent.com -j DROP &>/dev/null
+iptables -I INPUT -s .proximabeta.com -j DROP &>/dev/null
+iptables -I INPUT -s .pubgmobile.com -j DROP &>/dev/null
+iptables -I INPUT -s .tencent.com -j DROP &>/dev/null
+iptables -I INPUT -s .sl-reverse.com -j DROP &>/dev/null
+iptables -I INPUT -s .qcloud.com -j DROP &>/dev/null
+iptables -I INPUT -s .tencent.com -j DROP &>/dev/null
+iptables -I INPUT -s .me  -j DROP &>/dev/null
+iptables -I INPUT -s .twimg.com -j DROP &>/dev/null
+iptables -I INPUT -s .igame.gcloudcs.com -j DROP &>/dev/null
+iptables -I INPUT -s .org  -j DROP &>/dev/null
+iptables -I INPUT -s .helpshift.com -j DROP &>/dev/null
+iptables -I INPUT -s .fbsbx.com -j DROP &>/dev/null
+iptables -I INPUT -s .userapi.com -j DROP &>/dev/null
+iptables -I INPUT -s scgt.reverse.com -j DROP &>/dev/null
+iptables -I INPUT -s app.adjust.com -j DROP &>/dev/null
+iptables -I INPUT -s file.igamecj.com -j DROP &>/dev/null
+iptables -I INPUT -s .intellitxt.com -j DROP &>/dev/null
+iptables -I INPUT -s pay.igamecj.com -j DROP &>/dev/null
+iptables -I INPUT -s hkspeed.igamecj.com -j DROP &>/dev/null
+iptables -I INPUT -s .weiyun.com -j DROP &>/dev/null
+iptables -I INPUT -s .actencent.com -j DROP &>/dev/null
+iptables -I INPUT -s .gclouds.com -j DROP &>/dev/null
+iptables -I INPUT -s .gstatic.com -j DROP &>/dev/null
+iptables -I INPUT -s .googlevideocom -j DROP &>/dev/null
+iptables -I INPUT -s .googleapis.com -j DROP &>/dev/null
+iptables -I INPUT -s .googlesyndication.com -j DROP &>/dev/null
+iptables -I INPUT -s receiver.sg.tdm.qq.com -j DROP &>/dev/null
+iptables -I INPUT -s cdn.wetest.qq.com -j DROP &>/dev/null
+iptables -I INPUT -s vmp.qq.com -j DROP &>/dev/null
+iptables -I INPUT -s csoversea.mbgame.gamesafe.qq.com -j DROP &>/dev/null
+iptables -I INPUT -s android.bugly.qq.com -j DROP &>/dev/null
+iptables -I INPUT -s api.phenixos.com -j DROP &>/dev/null
+iptables -I INPUT -s www.pubgmobile.com -j DROP &>/dev/null
+iptables -I INPUT -s graph.facebook.com -j DROP &>/dev/null
+iptables -I INPUT -s platform-lookaside.fbsbx.com -j DROP &>/dev/null
+iptables -I INPUT -s scgt.reverse.com -j DROP &>/dev/null
+iptables -I INPUT -s rpgohsnmh.com -j DROP &>/dev/null
+iptables -I INPUT -s pay.igamecj.com -j DROP &>/dev/null
+iptables -I INPUT -s hkspeed.igamecj.com -j DROP &>/dev/null
+iptables -I INPUT -s app.adjust.com -j DROP &>/dev/null
+iptables -I INPUT -s pay.igamecj.com -j DROP &>/dev/null
+iptables -I INPUT -s hkspeed.igamecj.com -j DROP &>/dev/null
+iptables -I INPUT -s pubgmobile.helpshift.com -j DROP &>/dev/null
+iptables -I INPUT -s gameguardian.net -j DROP &>/dev/null
+iptables -I INPUT -s googletagmanager.com -j DROP &>/dev/null
+iptables -I INPUT -s .igame.gcloudcs.com -j DROP &>/dev/null
+iptables -I INPUT -s file.igamecj.com -j DROP &>/dev/null
+iptables -I INPUT -s meping.igamecj.com -j DROP &>/dev/null
+iptables -I INPUT -s saping.igamecj.com -j DROP &>/dev/null
+iptables -I INPUT -s naping.igamecj.com -j DROP &>/dev/null
+iptables -I INPUT -s download.2.1375135419.igame.gcloudcs.com -j DROP &>/dev/null
+iptables -I INPUT -s download.2.1375135419.igame.gcloudcs.com -j DROP &>/dev/null
+iptables -I INPUT -s download.2.1950038955.igamekr.gcloudcs.com -j DROP &>/dev/null
+iptables -I INPUT -s krlobby.igamecj.com -j DROP &>/dev/null
+iptables -I INPUT -s battlegroundsmobile.kr -j DROP &>/dev/null
+iptables -I INPUT -s scontent.xx.fbxcdn.net -j DROP &>/dev/null
+iptables -I INPUT -s scontent.fblr4-1.fna.fbcdn.net -j DROP &>/dev/null
+sleep 3
 rm -rf /sdcard/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Config/Android/AntiCheat.ini &> /dev/null
 rm -rf /storage/emulated/0/.backups/com.pubg.krmobile &> /dev/null
 rm -rf /storage/emulated/0/tencent/Midas/Log/com.pubg.krmobile &> /dev/null
