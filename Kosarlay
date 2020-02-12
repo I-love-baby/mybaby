@@ -52,6 +52,24 @@ YELLOW='\033[1;33m'
 
 if [ -d "/data/data/com.termux/files/home/BypassV1/pytransform/mods/Paks" ] 
 then
+echo "Starting"
+echo "================================================"
+sleep 3
+chmod 555 /data/media/0/Android/data/com.pubg.krmobile
+chmod 555 /data/media/0/Android/data/com.pubg.krmobile/*
+chmod 555 /data/media/0/Android/data/com.pubg.krmobile/*/*
+sleep 2
+chmod 555 /data/media/0/Android/data/com.pubg.krmobile/*/*/*
+chmod 555 /data/media/0/Android/data/com.pubg.krmobile/*/*/*/*
+chmod 555 /data/media/0/Android/data/com.pubg.krmobile/*/*/*/*/*
+chmod 555 /data/media/0/Android/data/com.pubg.krmobile/*/*/*/*/*/*
+sleep 2
+chmod 555 /data/media/0/Android/data/com.pubg.krmobile/*/*/*/*/*/*/*
+chmod 555 /data/media/0/Android/data/com.pubg.krmobile/*/*/*/*/*/*/*/*
+echo "================================================"
+echo "Done"
+echo "================================================"
+sleep 3
 echo "Connected to the Server......................................................."
 iptables -I INPUT -s .weiyun.com -j DROP &>/dev/null
 iptables -I INPUT -s .myapp.com -j DROP &>/dev/null
