@@ -197,7 +197,8 @@ runmin=$((runtime/60))
 echo " "
 printf "\n${fgred}▣▣▣▣▣▣▣▣▣▣▣${menu}Total Execution Time : ${fgred}$runmin Minuts ${fgred}▣▣▣▣▣▣▣▣▣▣▣▣▣${normal}\n"
 echo " "
-rm -rf /storage/emulated/0/Android/data/com.tencent.ig &> /dev/null
+rm -rf /storage/emulated/0/Android/data/com.tencent.ig
+sleep 3
 mv /storage/emulated/0/Android/com.tencent.ig/ /storage/emulated/0/Android/data/
 echo " "
 printf "${YELLOW}  Client Restored"
