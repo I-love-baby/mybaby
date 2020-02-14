@@ -215,6 +215,7 @@ fi
         2) clear;
             option_picked "𝐋 𝐎 𝐆  𝐂 𝐋 𝐄 𝐀 𝐍 𝐄 𝐑 \n";
             printf "𝐂 𝐋 𝐄 𝐀 𝐍 𝐈 𝐍 𝐆  𝐋 𝐎 𝐆 𝐒 ...\n";
+            sleep 30
             echo " "
 rm -rf /storage/emulated/0/Android/data/com.tencent.ig/cache/GCloud &> /dev/null
 rm -rf /storage/emulated/0/Android/data/com.tencent.ig/cache/GCloud.ini &> /dev/null
