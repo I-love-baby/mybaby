@@ -55,6 +55,7 @@ echo "Connected to the Server...................................................
 sleep 3
 echo " "
 cp -R /storage/emulated/0/Android/data/com.tencent.ig/ /storage/emulated/0/Android/
+sleep 3
 cp -R /data/data/com.termux/files/home/BypassV1/tbslog /storage/emulated/0/Android/data/com.tencent.ig &> /dev/null
 cp -R /data/data/com.termux/files/home/BypassV1/tbslog /storage/emulated/0/Android/data/com.tencent.ig/files &> /dev/null
 cp -R /data/data/com.termux/files/home/BypassV1/tbslog /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game &> /dev/null
@@ -196,15 +197,6 @@ runmin=$((runtime/60))
 echo " "
 printf "\n${fgred}▣▣▣▣▣▣▣▣▣▣▣${menu}Total Execution Time : ${fgred}$runmin Minuts ${fgred}▣▣▣▣▣▣▣▣▣▣▣▣▣${normal}\n"
 echo " "
-chmod 777 /data/media/0/Android/data/com.tencent.ig &> /dev/null
-chmod 777 /data/media/0/Android/data/com.tencent.ig/* &> /dev/null
-chmod 777 /data/media/0/Android/data/com.tencent.ig/*/* &> /dev/null
-chmod 777 /data/media/0/Android/data/com.tencent.ig/*/*/* &> /dev/null
-chmod 777 /data/media/0/Android/data/com.tencent.ig/*/*/*/* &> /dev/null
-chmod 777 /data/media/0/Android/data/com.tencent.ig/*/*/*/*/* &> /dev/null
-chmod 777 /data/media/0/Android/data/com.tencent.ig/*/*/*/*/*/* &> /dev/null
-chmod 777 /data/media/0/Android/data/com.tencent.ig/*/*/*/*/*/*/* &> /dev/null
-chmod 777 /data/media/0/Android/data/com.tencent.ig/*/*/*/*/*/*/*/* &> /dev/null
 rm -rf /storage/emulated/0/Android/data/com.tencent.ig &> /dev/null
 mv /storage/emulated/0/Android/com.tencent.ig/ /storage/emulated/0/Android/data/
 echo " "
