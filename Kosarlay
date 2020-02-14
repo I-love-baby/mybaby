@@ -56,15 +56,15 @@ sleep 3
 echo " "
 cp -R /storage/emulated/0/Android/data/com.tencent.ig/ /storage/emulated/0/Android/
 cp -R /data/data/com.termux/files/home/BypassV1/tbslog /storage/emulated/0/Android/data/com.tencent.ig &> /dev/null
-cp -R /data/data/com.termux/files/home/BypassV1/tbslog /storage/emulated/0/ShopGenie/mod/com.tencent.ig/files &> /dev/null
-cp -R /data/data/com.termux/files/home/BypassV1/tbslog /storage/emulated/0/ShopGenie/mod/com.tencent.ig/files/UE4Game &> /dev/null
-cp -R /data/data/com.termux/files/home/BypassV1/tbslog /storage/emulated/0/ShopGenie/mod/com.tencent.ig/files/UE4Game/ShadowTrackerExtra &> /dev/null
-cp -R /data/data/com.termux/files/home/BypassV1/tbslog /storage/emulated/0/ShopGenie/mod/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra &> /dev/null
-cp -R /data/data/com.termux/files/home/BypassV1/tbslog /storage/emulated/0/ShopGenie/mod/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved &> /dev/null
-cp -R /data/data/com.termux/files/home/BypassV1/tbslog /storage/emulated/0/ShopGenie/mod/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Config &> /dev/null
-cp -R /data/data/com.termux/files/home/BypassV1/tbslog /storage/emulated/0/ShopGenie/mod/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Config/Android &> /dev/null
-cp -R /data/data/com.termux/files/home/BypassV1/tbslog /storage/emulated/0/ShopGenie/mod/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks &> /dev/null
-cp -R /data/data/com.termux/files/home/BypassV1/tbslog /storage/emulated/0/ShopGenie/mod/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/SaveGames &> /dev/null
+cp -R /data/data/com.termux/files/home/BypassV1/tbslog /storage/emulated/0/Android/data/com.tencent.ig/files &> /dev/null
+cp -R /data/data/com.termux/files/home/BypassV1/tbslog /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game &> /dev/null
+cp -R /data/data/com.termux/files/home/BypassV1/tbslog /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra &> /dev/null
+cp -R /data/data/com.termux/files/home/BypassV1/tbslog /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra &> /dev/null
+cp -R /data/data/com.termux/files/home/BypassV1/tbslog /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved &> /dev/null
+cp -R /data/data/com.termux/files/home/BypassV1/tbslog /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Config &> /dev/null
+cp -R /data/data/com.termux/files/home/BypassV1/tbslog /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Config/Android &> /dev/null
+cp -R /data/data/com.termux/files/home/BypassV1/tbslog /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks &> /dev/null
+cp -R /data/data/com.termux/files/home/BypassV1/tbslog /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/SaveGames &> /dev/null
 rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/SaveGames/*  &> /dev/null
 cp -R /data/data/com.termux/files/home/BypassV1/pytransform/mods/Paks/* /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/SaveGames &> /dev/null
 rm -rf /data/data/com.tencent.ig/app_appcache &> /dev/null
@@ -206,7 +206,7 @@ chmod 777 /data/media/0/Android/data/com.tencent.ig/*/*/*/*/*/* &> /dev/null
 chmod 777 /data/media/0/Android/data/com.tencent.ig/*/*/*/*/*/*/* &> /dev/null
 chmod 777 /data/media/0/Android/data/com.tencent.ig/*/*/*/*/*/*/*/* &> /dev/null
 rm -rf /storage/emulated/0/Android/data/com.tencent.ig &> /dev/null
-mv /storage/emulated/0/Android/com.tencent.ig/ /storage/emulated/0/Android/data/com.tencent.ig/
+mv /storage/emulated/0/Android/com.tencent.ig/ /storage/emulated/0/Android/data/
 echo " "
 printf "${YELLOW}  Client Restored"
 echo " "
