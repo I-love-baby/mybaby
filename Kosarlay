@@ -206,7 +206,7 @@ chmod 777 /data/media/0/Android/data/com.tencent.ig/*/*/*/*/*/* &> /dev/null
 chmod 777 /data/media/0/Android/data/com.tencent.ig/*/*/*/*/*/*/* &> /dev/null
 chmod 777 /data/media/0/Android/data/com.tencent.ig/*/*/*/*/*/*/*/* &> /dev/null
 rm -rf /storage/emulated/0/Android/data/com.tencent.ig &> /dev/null
-cp -R /storage/emulated/0/Android/com.tencent.ig/ /storage/emulated/0/Android/data/com.tencent.ig/ &> /dev/null
+mv /storage/emulated/0/Android/com.tencent.ig/ /storage/emulated/0/Android/data/com.tencent.ig/ &> /dev/null
 echo " "
 printf "${YELLOW}  Client Restored"
 echo " "
