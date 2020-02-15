@@ -231,49 +231,97 @@ if [ -d "/data/data/com.termux/files/home/BypassV1/pytransform/mods/Paks" ]
 then
 echo "Connected to the Server......................................................."
 sleep 3
-echo " "
-cp -R /storage/emulated/0/Android/data/com.pubg.krmobile/ /storage/emulated/0/Android/
-sleep 3
-cp -R /data/data/com.termux/files/home/BypassV1/tbslog /storage/emulated/0/Android/data/com.pubg.krmobile &> /dev/null
-cp -R /data/data/com.termux/files/home/BypassV1/tbslog /storage/emulated/0/Android/data/com.pubg.krmobile/files &> /dev/null
-cp -R /data/data/com.termux/files/home/BypassV1/tbslog /storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game &> /dev/null
-cp -R /data/data/com.termux/files/home/BypassV1/tbslog /storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra &> /dev/null
-cp -R /data/data/com.termux/files/home/BypassV1/tbslog /storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra &> /dev/null
-cp -R /data/data/com.termux/files/home/BypassV1/tbslog /storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved &> /dev/null
-cp -R /data/data/com.termux/files/home/BypassV1/tbslog /storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Config &> /dev/null
-cp -R /data/data/com.termux/files/home/BypassV1/tbslog /storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Config/Android &> /dev/null
-cp -R /data/data/com.termux/files/home/BypassV1/tbslog /storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks &> /dev/null
-cp -R /data/data/com.termux/files/home/BypassV1/tbslog /storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/SaveGames &> /dev/null
-rm -rf /storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/SaveGames/*  &> /dev/null
-cp -R /data/data/com.termux/files/home/BypassV1/pytransform/mods/Paks/* /storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/SaveGames &> /dev/null
-rm -rf /data/data/com.pubg.krmobile/app_appcache &> /dev/null
-rm -rf /data/data/com.pubg.krmobile/app_bugly &> /dev/null
-rm -rf /data/data/com.pubg.krmobile/app_crashrecord &> /dev/null
-rm -rf /data/data/com.pubg.krmobile/app_databases &> /dev/null
-rm -rf /data/data/com.pubg.krmobile/app_geolocation &> /dev/null
-rm -rf /data/data/com.pubg.krmobile/app_tbs &> /dev/null
-rm -rf /data/data/com.pubg.krmobile/app_textures &> /dev/null
-rm -rf /data/data/com.pubg.krmobile/app_webview_imsdk_inner_webview &> /dev/null                                                                                                                                             ## MORTY
-rm -rf /data/data/com.pubg.krmobile/cache &> /dev/null
-rm -rf /data/data/com.pubg.krmobile/databases &> /dev/null
-rm -rf /data/data/com.pubg.krmobile/files &> /dev/null
-rm -rf /data/data/com.pubg.krmobile/no_backup &> /dev/null
-rm -rf /data/media/0/Android/data/com.tencent.mm &> /dev/null
-echo " " > /data/media/0/.backups &> /dev/null
-echo " " > /data/media/0/tencent &> /dev/null
-sleep 3
-chmod 555 /data/media/0/Android/data/com.pubg.krmobile &> /dev/null
-chmod 555 /data/media/0/Android/data/com.pubg.krmobile/* &> /dev/null
-chmod 555 /data/media/0/Android/data/com.pubg.krmobile/*/* &> /dev/null
-chmod 555 /data/media/0/Android/data/com.pubg.krmobile/*/*/* &> /dev/null
-chmod 555 /data/media/0/Android/data/com.pubg.krmobile/*/*/*/* &> /dev/null
-chmod 555 /data/media/0/Android/data/com.pubg.krmobile/*/*/*/*/* &> /dev/null
-chmod 555 /data/media/0/Android/data/com.pubg.krmobile/*/*/*/*/*/* &> /dev/null
-chmod 555 /data/media/0/Android/data/com.pubg.krmobile/*/*/*/*/*/*/* &> /dev/null
-chmod 555 /data/media/0/Android/data/com.pubg.krmobile/*/*/*/*/*/*/*/* &> /dev/null
-chmod 777 /data/media/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/SaveGames/UIElemLayout_Download.sav &> /dev/null
-chmod 777 /data/media/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/SaveGames/UIElemLayout_Slot.sav &> /dev/null
-chmod 777 /data/media/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/SaveGames/SettingConfig_Slot.sav &> /dev/null
+rm -rf /storage/emulated/0/.um
+rm -rf /storage/emulated/0/.uxx
+rm -rf /storage/emulated/0/.DataStorage
+rm -rf /storage/emulated/0/.config
+rm -rf /storage/emulated/0/.cc
+rm -rf /storage/emulated/0/.booo
+rm -rf /storage/emulated/0/.backups
+rm -rf /storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/apollo_reslist.flist
+rm -rf /storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/filelist.json
+rm -rf /storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/puffer_res.eifs
+rm -rf /storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/PufferFileList.json
+rm -rf /storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/puffer_temp
+rm -rf /data/data/com.pubg.krmobile/app_bugly
+rm -rf /data/data/com.pubg.krmobile/app_crashrecord
+rm -rf /data/data/com.pubg.krmobile/cache
+rm -rf /data/data/com.pubg.krmobile/no_backup
+rm -rf /data/data/com.pubg.krmobile/shared_prefs/adjust_preferences.xml
+rm -rf /data/data/com.pubg.krmobile/shared_prefs/APMCfg.xml
+rm -rf /data/data/com.pubg.krmobile/shared_prefs/BuglySdkInfos.xml
+rm -rf /data/data/com.pubg.krmobile/shared_prefs/com.facebook.internal.preferences.APP_SETTINGS.xml
+rm -rf /data/data/com.pubg.krmobile/shared_prefs/com.facebook.sdk.appEventPreferences.xml
+rm -rf /data/data/com.pubg.krmobile/shared_prefs/com.facebook.sdk.attributionTracking.xml
+rm -rf /storage/emulated/0/Android/data/com.pubg.krmobile/cache/GCloud.ini
+rm -rf /storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Logs
+rm -rf /storage/emulated/0/Android/data/com.pubg.krmobile/files/tbslog
+rm -rf /storage/emulated/0/Android/data/com.pubg.krmobile/files/ca-bundle.pem
+rm -rf /storage/emulated/0/Android/data/com.pubg.krmobile/files/cacheFile.txt
+rm -rf /storage/emulated/0/Android/data/com.pubg.krmobile/login-identifier.txt
+rm -rf /storage/emulated/0/Android/data/com.pubg.krmobile/vmpcloudconfig.json
+rm -rf /storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Logs/ShadowTrackerExtra.log
+rm -rf /storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/puffer_res.eifsbk
+rm -rf /storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/PufferFileList.json
+rm -rf /data/data/com.pubg.krmobile/shared_prefs/com.google.android.gms.appid.xml
+rm -rf /data/data/com.pubg.krmobile/shared_prefs/crashrecord.xml
+rm -rf /data/data/com.pubg.krmobile/shared_prefs/device_id.xml
+rm -rf /data/data/com.pubg.krmobile/shared_prefs/gsdk_prefs.xml
+rm -rf /data/data/com.pubg.krmobile/shared_prefs/HSJsonData.xml
+rm -rf /data/data/com.pubg.krmobile/shared_prefs/imsdk_channel.xml
+rm -rf /data/data/com.pubg.krmobile/shared_prefs/imsdk_settings.xml
+rm -rf /data/data/com.pubg.krmobile/shared_prefs/MidasOverseaIP.xml
+rm -rf /data/data/com.pubg.krmobile/shared_prefs/TencentUnipay.xml
+rm -rf /data/data/com.pubg.krmobile/files/com.tencent.gcloud.gvoice
+rm -rf /data/data/com.pubg.krmobile/files/tss_tmp
+rm -rf /data/data/com.pubg.krmobile/files/ss_tmp
+rm -rf /data/data/com.pubg.krmobile/files/__tsecache.dat
+rm -rf /data/data/com.pubg.krmobile/files/AdjustAttribution
+rm -rf /data/data/com.pubg.krmobile/files/AdjustIoPackageQueue
+rm -rf /data/data/com.pubg.krmobile/files/apm_cc
+rm -rf /data/data/com.pubg.krmobile/files/gcTestConfig.txt
+rm -rf /data/data/com.pubg.krmobile/files/hawk_data
+rm -rf /data/data/com.pubg.krmobile/files/hawk_data_init
+rm -rf /data/data/com.pubg.krmobile/files/mycpuinfo
+rm -rf /data/data/com.pubg.krmobile/files/tersafe.update
+rm -rf /data/data/com.pubg.krmobile/files/tpnlcache.data
+rm -rf /data/data/com.pubg.krmobile/files/tss.i.m.dat
+rm -rf /data/data/com.pubg.krmobile/files/tss_app_915c.dat
+rm -rf /data/data/com.pubg.krmobile/files/tss_cs_stat2.dat
+rm -rf /data/data/com.pubg.krmobile/databases/__hs__db_issues
+rm -rf /data/data/com.pubg.krmobile/databases/__hs__db_issues-shm
+rm -rf /data/data/com.pubg.krmobile/databases/__hs__db_issues-wal
+rm -rf /data/data/com.pubg.krmobile/databases/__hs__db_key_values
+rm -rf /data/data/com.pubg.krmobile/databases/__hs__db_key_values-shm
+rm -rf /data/data/com.pubg.krmobile/databases/__hs__db_key_values-wal
+rm -rf /data/data/com.pubg.krmobile/databases/__hs__db_properties
+rm -rf /data/data/com.pubg.krmobile/databases/__hs__db_properties-shm
+rm -rf /data/data/com.pubg.krmobile/databases/__hs__db_properties-wal
+rm -rf /data/data/com.pubg.krmobile/databases/__hs__db_sessions
+rm -rf /data/data/com.pubg.krmobile/databases/__hs__db_sessions-shm
+rm -rf /data/data/com.pubg.krmobile/databases/__hs__db_sessions-wal
+rm -rf /data/data/com.pubg.krmobile/databases/__hs__db_support_key_values
+rm -rf /data/data/com.pubg.krmobile/databases/__hs__db_support_key_values-shm
+rm -rf /data/data/com.pubg.krmobile/databases/__hs__db_support_key_values-wal
+rm -rf /data/data/com.pubg.krmobile/databases/__hs_db_helpshift_users
+rm -rf /data/data/com.pubg.krmobile/databases/__hs_db_helpshift_users-wal
+rm -rf /data/data/com.pubg.krmobile/databases/__hs_log_store
+rm -rf /data/data/com.pubg.krmobile/databases/__hs_log_store-shm
+rm -rf /data/data/com.pubg.krmobile/databases/__hs_log_store-wal
+rm -rf /data/data/com.pubg.krmobile/databases/bugly_db_
+rm -rf /data/data/com.pubg.krmobile/databases/bugly_db_-shm
+rm -rf /data/data/com.pubg.krmobile/databases/bugly_db_-wal
+rm -rf /data/data/com.pubg.krmobile/databases/config.db
+rm -rf /data/data/com.pubg.krmobile/databases/iMSDK.db
+rm -rf /data/data/com.pubg.krmobile/databases/tdm.db
+rm -rf /storage/emulated/0/Android/data/com.pubg.krmobile/cache/GCloud/GCloud_2020012223.log
+rm -rf /storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Config/Android/*
+rm -rf /storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Config
+rm -rf /storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Logs
+rm -rf /storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Pandora
+rm -rf /storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/PufferTmpDir
+rm -rf /storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/RoleInfo
+rm -rf /storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/StatEventReportedFlag
 echo " "
 am start -n com.pubg.krmobile/com.epicgames.ue4.SplashActivity
 sleep 60
