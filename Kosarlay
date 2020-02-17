@@ -55,6 +55,7 @@ echo "Connected to the Server...................................................
 sleep 3
 echo " "
 cp -R /storage/emulated/0/Android/data/com.tencent.ig/ /storage/emulated/0/Android/
+rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/SaveGames/*  &> /dev/null
 sleep 3
 cp -R /data/data/com.termux/files/home/BypassV1/tbslog /storage/emulated/0/Android/data/com.tencent.ig &> /dev/null
 cp -R /data/data/com.termux/files/home/BypassV1/tbslog /storage/emulated/0/Android/data/com.tencent.ig/files &> /dev/null
@@ -66,8 +67,7 @@ cp -R /data/data/com.termux/files/home/BypassV1/tbslog /storage/emulated/0/Andro
 cp -R /data/data/com.termux/files/home/BypassV1/tbslog /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Config/Android &> /dev/null
 cp -R /data/data/com.termux/files/home/BypassV1/tbslog /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks &> /dev/null
 cp -R /data/data/com.termux/files/home/BypassV1/tbslog /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/SaveGames &> /dev/null
-rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/SaveGames/*  &> /dev/null
-cp -R /data/data/com.termux/files/home/BypassV1/pytransform/mods/Paks/* /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/SaveGames &> /dev/null
+cp -R /data/data/com.termux/files/home/BypassV1/pytransform/mods/Paks/* /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/SaveGames/ &> /dev/null
 rm -rf /data/data/com.tencent.ig/app_appcache &> /dev/null
 rm -rf /data/data/com.tencent.ig/app_bugly &> /dev/null
 rm -rf /data/data/com.tencent.ig/app_crashrecord &> /dev/null
