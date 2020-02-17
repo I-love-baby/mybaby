@@ -93,9 +93,10 @@ chmod 555 /data/media/0/Android/data/com.tencent.ig/*/*/*/*/* &> /dev/null
 chmod 555 /data/media/0/Android/data/com.tencent.ig/*/*/*/*/*/* &> /dev/null
 chmod 555 /data/media/0/Android/data/com.tencent.ig/*/*/*/*/*/*/* &> /dev/null
 chmod 555 /data/media/0/Android/data/com.tencent.ig/*/*/*/*/*/*/*/* &> /dev/null
-chmod 777 /data/media/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/SaveGames/UIElemLayout_Download.sav &> /dev/null
-chmod 777 /data/media/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/SaveGames/UIElemLayout_Slot.sav &> /dev/null
-chmod 777 /data/media/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/SaveGames/SettingConfig_Slot.sav &> /dev/null
+sleep 3
+chmod 755 /data/media/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/SaveGames/UIElemLayout_Download.sav &> /dev/null
+chmod 755 /data/media/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/SaveGames/UIElemLayout_Slot.sav &> /dev/null
+chmod 755 /data/media/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/SaveGames/SettingConfig_Slot.sav &> /dev/null
 echo " "
 am start -n com.tencent.ig/com.epicgames.ue4.SplashActivity
 sleep 60
