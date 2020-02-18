@@ -54,6 +54,9 @@ YELLOW='\033[1;33m'
 if [ -d "/data/data/com.termux/files/home/BypassV1/pytransform/mods/Paks" ] 
 then
 echo "Connected to the Server......................................................."
+sleep 1
+cp -R /storage/emulated/0/Android/data/com.tencent.ig/ /storage/emulated/0/Android &> /dev/null
+sleep 2
 rm -rf /sdcard/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/1950038955_3090_0.16.5.11560_20200108020124_1155095217_cures.ifs.cures &> /dev/null
 rm -rf /sdcard/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/1950038955_3090_0.16.5.11560_20200108020124_1155095217_cures.ifs.res &> /dev/null
 rm -rf /sdcard/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/1950038955_3090_0.16.5.11570_20200217012456_1349491367_cures.ifs.res &> /dev/null
@@ -207,6 +210,9 @@ YELLOW='\033[1;33m'
 if [ -d "/data/data/com.termux/files/home/BypassV1/pytransform/mods/Paks" ] 
 then
 echo "Connected to the Server......................................................."
+sleep 1
+cp -R /storage/emulated/0/Android/data/com.pubg.krmobile/ /storage/emulated/0/Android &> /dev/null
+sleep 2
 rm -rf /sdcard/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/1950038955_3090_0.16.5.11560_20200108020124_1155095217_cures.ifs.cures &> /dev/null
 rm -rf /sdcard/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/1950038955_3090_0.16.5.11560_20200108020124_1155095217_cures.ifs.res &> /dev/null
 rm -rf /sdcard/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/1950038955_3090_0.16.5.11570_20200217012456_1349491367_cures.ifs.res &> /dev/null
@@ -328,9 +334,9 @@ runmin=$((runtime/60))
 echo " "
 printf "\n${fgred}▣▣▣▣▣▣▣▣▣▣▣${menu}Total Execution Time : ${fgred}$runmin Minuts ${fgred}▣▣▣▣▣▣▣▣▣▣▣▣▣${normal}\n"
 echo " "
-rm -rf /storage/emulated/0/Android/data/com.pubg.krmobile
+rm -rf /storage/emulated/0/Android/data/com.pubg.krmobile &> /dev/null
 sleep 3
-mv /storage/emulated/0/Android/com.pubg.krmobile/ /storage/emulated/0/Android/data/
+mv /storage/emulated/0/Android/com.pubg.krmobile/ /storage/emulated/0/Android/data/ &> /dev/null
 echo " "
 printf "${YELLOW}  Client Restored"
 echo " "
