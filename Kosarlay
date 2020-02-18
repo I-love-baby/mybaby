@@ -13,10 +13,10 @@ cat /data/data/com.termux/files/home/BypassV1/pytransform/KSL | lolcat -a -d 5
     printf "\n${menu}▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣${normal}\n"
     printf "\n${menu}▣▣${number} 1)${menu} B Y P A S S  G L O B A L  ${normal}\n\n" | lolcat -a -d 3
     printf "\n${menu}▣▣${number} 2)${menu} B Y P A S S  K O R E A  ${normal}\n\n" | lolcat -a -d 3
-    printf "${menu}▣▣${number} 3)${menu} C L E A R   L O G ${normal}\n\n" | lolcat -a -d 3
-    printf "${menu}▣▣${number} 4)${menu} R E S T  G U E S T  ( G L )  ${normal}\n\n" | lolcat -a -d 3
-    printf "${menu}▣▣${number} 5)${menu} R E S T  G U E S T  ( K R )  ${normal}\n\n" | lolcat -a -d 3
-    printf "${menu}▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣${normal}\n"
+    printf "\n${menu}▣▣${number} 3)${menu} C L E A R   L O G ${normal}\n\n" | lolcat -a -d 3
+    printf "\n${menu}▣▣${number} 4)${menu} R E S T  G U E S T  ( G L )  ${normal}\n\n" | lolcat -a -d 3
+    printf "\n${menu}▣▣${number} 5)${menu} R E S T  G U E S T  ( K R )  ${normal}\n\n" | lolcat -a -d 3
+    printf "\n${menu}▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣${normal}\n"
     printf "\n${fgred}Please enter a menu option and enter or ${fgred}x to exit. ${normal}"
     read opt
 }
