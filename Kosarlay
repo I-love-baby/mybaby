@@ -14,7 +14,8 @@ cat /data/data/com.termux/files/home/BypassV1/pytransform/KSL | lolcat -a -d 5
     printf "\n${menu}▣▣${number} 1)${menu} B Y P A S S  G L O B A L  ${normal}\n\n" | lolcat -a -d 3
     printf "\n${menu}▣▣${number} 1)${menu} B Y P A S S  K O R E A  ${normal}\n\n" | lolcat -a -d 3
     printf "${menu}▣▣${number} 2)${menu} C L E A R   L O G ${normal}\n\n" | lolcat -a -d 3
-    printf "${menu}▣▣${number} 3)${menu} R E S T  G U E S T  ${normal}\n\n" | lolcat -a -d 3
+    printf "${menu}▣▣${number} 3)${menu} R E S T  G U E S T  ( G L )  ${normal}\n\n" | lolcat -a -d 3
+    printf "${menu}▣▣${number} 3)${menu} R E S T  G U E S T  ( K R )  ${normal}\n\n" | lolcat -a -d 3
     printf "${menu}▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣${normal}\n"
     printf "\n${fgred}Please enter a menu option and enter or ${fgred}x to exit. ${normal}"
     read opt
@@ -380,8 +381,29 @@ rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrack
             option_picked "G U E S T  R E S E T\n";
             printf "R E S E T T I N G   Y O U R   G U E S T  A C C O U N T ...\n";
             echo " "
-            KR="/data/data/com.tencent.ig/shared_prefs/device_id.xml"
+            GL="/data/data/com.tencent.ig/shared_prefs/device_id.xml"
             kill com.tencent.ig 2> /dev/null
+            rm -rf $GL
+            echo "<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <string name=\"random\"></string>
+    <string name=\"install\"></string>
+    <string name=\"uuid\">$RANDOM$RANDOM-$RANDOM-$RANDOM-$RANDOM-$RANDOM$RANDOM$RANDOM</string>
+</map>" > $GL
+./progress
+sleep 2
+            echo " "
+            echo "E X I T I N G   T O   D R I V E R   C O D E "
+            sleep 2
+            clear
+            show_menu;
+        ;;
+        5) clear;
+            option_picked "G U E S T  R E S E T\n";
+            printf "R E S E T T I N G   Y O U R   G U E S T  A C C O U N T ...\n";
+            echo " "
+            KR="/data/data/com.pubg.krmobile/shared_prefs/device_id.xml"
+            kill com.pubg.krmobile 2> /dev/null
             rm -rf $KR
             echo "<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
 <map>
