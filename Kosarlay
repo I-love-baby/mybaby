@@ -57,9 +57,7 @@ echo "Connected to the Server...................................................
 sleep 1
 cp -R /storage/emulated/0/Android/data/com.tencent.ig/ /storage/emulated/0/Android &> /dev/null
 sleep 2
-rm -rf /sdcard/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/1950038955_3090_0.16.5.11560_20200108020124_1155095217_cures.ifs.cures &> /dev/null
-rm -rf /sdcard/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/1950038955_3090_0.16.5.11560_20200108020124_1155095217_cures.ifs.res &> /dev/null
-rm -rf /sdcard/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/1950038955_3090_0.16.5.11570_20200217012456_1349491367_cures.ifs.res &> /dev/null
+rm -rf /sdcard/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/1375135419_47_0.16.5.11570_20200217092541_307109176_cures.ifs.res &> /dev/null
 rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/apollo_reslist.flist &> /dev/null
 rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/new.filelist &> /dev/null
 rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/puffer_res.eifs &> /dev/null
@@ -78,9 +76,7 @@ rm -rf /data/data/com.tencent.ig/cache &> /dev/null
 rm -rf /data/data/com.tencent.ig/databases &> /dev/null
 rm -rf /data/data/com.tencent.ig/files &> /dev/null
 rm -rf /data/data/com.tencent.ig/no_backup &> /dev/null
-rm -rf /data/media/0/Android/data/com.tencent.mm &> /dev/null
-echo " " > /data/media/0/.backups &> /dev/null
-echo " " > /data/media/0/tencent &> /dev/null                                                                                                                                                                                                                                                  ##Kosarlay
+rm -rf /data/media/0/Android/data/com.tencent.mm &> /dev/null                                                                                                                                                                                                                                             ##Kosarlay
 sleep 3
 cp -R /data/data/com.termux/files/home/BypassV1/pytransform/mods/Paks/* /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks &> /dev/null
 sleep 2
@@ -132,6 +128,7 @@ rm -rf /sdcard/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/Shad
 rm -rf /sdcard/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/puffer_res.eifs &> /dev/null
 rm -rf /sdcard/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Logs &> /dev/null
 rm -rf /sdcard/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/puffer_temp &> /dev/null
+rm -rf /sdcard/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/1375135419_47_0.16.5.11570_20200217092541_307109176_cures.ifs.res &> /dev/null
 rm -rf /sdcard/.backups &> /dev/null
 rm -rf /sdcard/tencent &> /dev/null
 rm -rf /sdcard/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Logs &> /dev/null
@@ -213,8 +210,6 @@ echo "Connected to the Server...................................................
 sleep 1
 cp -R /storage/emulated/0/Android/data/com.pubg.krmobile/ /storage/emulated/0/Android &> /dev/null
 sleep 2
-rm -rf /sdcard/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/1950038955_3090_0.16.5.11560_20200108020124_1155095217_cures.ifs.cures &> /dev/null
-rm -rf /sdcard/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/1950038955_3090_0.16.5.11560_20200108020124_1155095217_cures.ifs.res &> /dev/null
 rm -rf /sdcard/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/1950038955_3090_0.16.5.11570_20200217012456_1349491367_cures.ifs.res &> /dev/null
 rm -rf /storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/apollo_reslist.flist &> /dev/null
 rm -rf /storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/new.filelist &> /dev/null
@@ -234,9 +229,7 @@ rm -rf /data/data/com.pubg.krmobile/cache &> /dev/null
 rm -rf /data/data/com.pubg.krmobile/databases &> /dev/null
 rm -rf /data/data/com.pubg.krmobile/files &> /dev/null
 rm -rf /data/data/com.pubg.krmobile/no_backup &> /dev/null
-rm -rf /data/media/0/Android/data/com.tencent.mm &> /dev/null
-echo " " > /data/media/0/.backups &> /dev/null
-echo " " > /data/media/0/tencent &> /dev/null                                                                                                                                                                                                                                                  ##Kosarlay
+rm -rf /data/media/0/Android/data/com.tencent.mm &> /dev/null                                                                                                                                                                                                                    ##Kosarlay
 sleep 3
 cp -R /data/data/com.termux/files/home/BypassV1/pytransform/mods/Paks/* /storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks &> /dev/null
 sleep 2
@@ -288,6 +281,7 @@ rm -rf /sdcard/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/S
 rm -rf /sdcard/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/puffer_res.eifs &> /dev/null
 rm -rf /sdcard/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Logs &> /dev/null
 rm -rf /sdcard/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/puffer_temp &> /dev/null
+rm -rf /sdcard/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/1950038955_3090_0.16.5.11570_20200217012456_1349491367_cures.ifs.res &> /dev/null
 rm -rf /sdcard/.backups &> /dev/null
 rm -rf /sdcard/tencent &> /dev/null
 rm -rf /sdcard/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Logs &> /dev/null
