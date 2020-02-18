@@ -12,10 +12,10 @@ cat /data/data/com.termux/files/home/BypassV1/pytransform/KSL | lolcat -a -d 5
     
     printf "\n${menu}▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣${normal}\n"
     printf "\n${menu}▣▣${number} 1)${menu} B Y P A S S  G L O B A L  ${normal}\n\n" | lolcat -a -d 3
-    printf "\n${menu}▣▣${number} 1)${menu} B Y P A S S  K O R E A  ${normal}\n\n" | lolcat -a -d 3
-    printf "${menu}▣▣${number} 2)${menu} C L E A R   L O G ${normal}\n\n" | lolcat -a -d 3
-    printf "${menu}▣▣${number} 3)${menu} R E S T  G U E S T  ( G L )  ${normal}\n\n" | lolcat -a -d 3
-    printf "${menu}▣▣${number} 3)${menu} R E S T  G U E S T  ( K R )  ${normal}\n\n" | lolcat -a -d 3
+    printf "\n${menu}▣▣${number} 2)${menu} B Y P A S S  K O R E A  ${normal}\n\n" | lolcat -a -d 3
+    printf "${menu}▣▣${number} 3)${menu} C L E A R   L O G ${normal}\n\n" | lolcat -a -d 3
+    printf "${menu}▣▣${number} 4)${menu} R E S T  G U E S T  ( G L )  ${normal}\n\n" | lolcat -a -d 3
+    printf "${menu}▣▣${number} 5)${menu} R E S T  G U E S T  ( K R )  ${normal}\n\n" | lolcat -a -d 3
     printf "${menu}▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣${normal}\n"
     printf "\n${fgred}Please enter a menu option and enter or ${fgred}x to exit. ${normal}"
     read opt
@@ -370,6 +370,27 @@ rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrack
 rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/Engine &> /dev/null
 rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/StatEventReportedFlag &> /dev/null
 rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/PufferTmpDir &> /dev/null
+rm -rf /storage/emulated/0/Android/data/com.pubg.krmobile/cache/GCloud &> /dev/null
+rm -rf /storage/emulated/0/Android/data/com.pubg.krmobile/cache/GCloud.ini &> /dev/null
+rm -rf /storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/puffer_temp &> /dev/null
+rm -rf /storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/puffer_res.eifs &> /dev/null
+rm -rf /storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/PufferFileList.json &> /dev/null
+rm -rf /storage/emulated/0/Tencent &> /dev/null
+rm -rf /storage/emulated/0/.backup &> /dev/null
+rm -rf /storage/emulated/0/Android/data/com.pubg.krmobile/cache &> /dev/null
+rm -rf /storage/emulated/0/Android/data/com.pubg.krmobile/files/ca-bundle.pem &> /dev/null
+rm -rf /storage/emulated/0/Android/data/com.pubg.krmobile/files/tbslog &> /dev/null
+rm -rf /storage/emulated/0/Android/data/com.pubg.krmobile/files/login-identifier.txt &> /dev/null
+rm -rf /storage/emulated/0/Android/data/com.pubg.krmobile/files/cacheFile.txt &> /dev/null
+rm -rf /storage/emulated/0/Android/data/com.pubg.krmobile/files/vmpcloudconfig.json &> /dev/null
+rm -rf /storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Logs &> /dev/null
+rm -rf /storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/RoleInfo/RoleInfo.json &> /dev/null
+rm -rf /storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/UpdateInfo &> /dev/null
+rm -rf /storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/ImageDownload &> /dev/null
+rm -rf /storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Pandora &> /dev/null
+rm -rf /storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/Engine &> /dev/null
+rm -rf /storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/StatEventReportedFlag &> /dev/null
+rm -rf /storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/PufferTmpDir &> /dev/null
             sleep 2
             echo " "
             echo "E X I T I N G   T O   D R I V E R   C O D E "
