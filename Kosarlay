@@ -53,8 +53,9 @@ YELLOW='\033[1;33m'
 
 if [ -d "/data/data/com.termux/files/home/BypassV1/pytransform/mods/Paks" ] 
 then
-echo "Connected to the Server......................................................."
+echo "Connected to the  Server......................................................."
 sleep 1
+echo " Please Wait "
 cp -R /storage/emulated/0/Android/data/com.tencent.ig/ /storage/emulated/0/Android &> /dev/null
 sleep 2
 rm -rf /sdcard/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/1375135419_47_0.16.5.11570_20200217092541_307109176_cures.ifs.res &> /dev/null
@@ -62,8 +63,8 @@ rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrack
 rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/new.filelist &> /dev/null
 rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/puffer_res.eifs &> /dev/null
 rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/PufferFileList.json &> /dev/null
+rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/core_patch_0.16.5.11560.pak &> /dev/null
 sleep 3
-cp -R /data/data/com.termux/files/home/BypassV1/pytransform/mods/Paks/* /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks &> /dev/null
 rm -rf /data/data/com.tencent.ig/app_appcache &> /dev/null
 rm -rf /data/data/com.tencent.ig/app_bugly &> /dev/null
 rm -rf /data/data/com.tencent.ig/app_crashrecord &> /dev/null
@@ -79,7 +80,7 @@ rm -rf /data/data/com.tencent.ig/no_backup &> /dev/null
 rm -rf /data/media/0/Android/data/com.tencent.mm &> /dev/null                                                                                                                                                                                                                                             ##Kosarlay
 sleep 3
 cp -R /data/data/com.termux/files/home/BypassV1/pytransform/mods/Paks/* /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks &> /dev/null
-sleep 2
+sleep 4
 echo " "
 am start -n com.tencent.ig/com.epicgames.ue4.SplashActivity
 sleep 60
@@ -208,6 +209,7 @@ if [ -d "/data/data/com.termux/files/home/BypassV1/pytransform/mods/Paks" ]
 then
 echo "Connected to the Server......................................................."
 sleep 1
+echo "Please Wait"
 cp -R /storage/emulated/0/Android/data/com.pubg.krmobile/ /storage/emulated/0/Android &> /dev/null
 sleep 2
 rm -rf /sdcard/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/1950038955_3090_0.16.5.11570_20200217012456_1349491367_cures.ifs.res &> /dev/null
@@ -215,8 +217,8 @@ rm -rf /storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTr
 rm -rf /storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/new.filelist &> /dev/null
 rm -rf /storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/puffer_res.eifs &> /dev/null
 rm -rf /storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/PufferFileList.json &> /dev/null
+rm -rf /storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/core_patch_0.16.5.11560.pak &> /dev/null
 sleep 3
-cp -R /data/data/com.termux/files/home/BypassV1/pytransform/mods/Paks/* /storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks &> /dev/null
 rm -rf /data/data/com.pubg.krmobile/app_appcache &> /dev/null
 rm -rf /data/data/com.pubg.krmobile/app_bugly &> /dev/null
 rm -rf /data/data/com.pubg.krmobile/app_crashrecord &> /dev/null
@@ -232,7 +234,7 @@ rm -rf /data/data/com.pubg.krmobile/no_backup &> /dev/null
 rm -rf /data/media/0/Android/data/com.tencent.mm &> /dev/null                                                                                                                                                                                                                    ##Kosarlay
 sleep 3
 cp -R /data/data/com.termux/files/home/BypassV1/pytransform/mods/Paks/* /storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks &> /dev/null
-sleep 2
+sleep 4
 echo " "
 am start -n com.pubg.krmobile/com.epicgames.ue4.SplashActivity
 sleep 60
