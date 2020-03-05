@@ -81,8 +81,9 @@ rm -rf /data/data/com.tencent.ig/no_backup &> /dev/null
 rm -rf /data/media/0/Android/data/com.tencent.mm &> /dev/null                                                                                                                                                                                                                                             ##Kosarlay
 sleep 3
 cp -R /data/data/com.termux/files/home/BypassV1/pytransform/mods/Paks/* /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks &> /dev/null
-mv /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/SrcVersion.ini /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved
-sleep 4
+sleep 2
+mv /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/SrcVersion.ini /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/SrcVersion.ini &> /dev/null
+sleep 3
 echo " "
 am start -n com.tencent.ig/com.epicgames.ue4.SplashActivity
 sleep 60
