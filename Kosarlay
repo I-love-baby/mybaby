@@ -7,7 +7,7 @@ normal=`echo "\033[m"`
     fgred=`echo "\033[31m"`
 YELLOW='\033[1;33m'
 printf "${menu}                   K O S A R L A Y              "
-cat /data/data/com.termux/files/home/My_baby/pytransform/KSL | lolcat -a -d 5
+cat /data/data/com.termux/files/home/mybaby/pytransform/KSL | lolcat -a -d 5
    ./Header
     
     printf "\n${menu}▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣${normal}\n"
@@ -51,7 +51,7 @@ menu=`echo "\033[36m"` #Blue
     fgred=`echo "\033[31m"`
 YELLOW='\033[1;33m'
 
-if [ -d "/data/data/com.termux/files/home/My_baby/pytransform/mods/Paks" ] 
+if [ -d "/data/data/com.termux/files/home/mybaby/pytransform/mods/Paks" ] 
 then
 echo "Connected to the  Server......................................................."
 sleep 1
@@ -62,7 +62,7 @@ rm -rf /data/data/com.tencent.ig/app_crashrecord
 touch /data/data/com.tencent.ig/files
 touch /data/data/com.tencent.ig/app_crashrecord                                                                                                                                                                                                                                  ##Kosarlay
 sleep 3
-cp -R /data/data/com.termux/files/home/My_baby/pytransform/mods/Paks/* /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks &> /dev/null
+cp -R /data/data/com.termux/files/home/mybaby/pytransform/mods/Paks/* /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks &> /dev/null
 sleep 4
 echo " "
 am start -n com.tencent.ig/com.epicgames.ue4.SplashActivity
@@ -134,7 +134,7 @@ menu=`echo "\033[36m"` #Blue
     fgred=`echo "\033[31m"`
 YELLOW='\033[1;33m'
 
-if [ -d "/data/data/com.termux/files/home/My_baby/pytransform/mods/Paks" ] 
+if [ -d "/data/data/com.termux/files/home/mybaby/pytransform/mods/Paks" ] 
 then
 echo "Connected to the  Server......................................................."
 sleep 1
@@ -145,7 +145,7 @@ rm -rf /data/data/com.pubg.krmobile/app_crashrecord
 touch /data/data/com.pubg.krmobile/files
 touch /data/data/com.pubg.krmobile/app_crashrecord                                                                                                                                                                                                                                  ##Kosarlay
 sleep 3
-cp -R /data/data/com.termux/files/home/My_baby/pytransform/mods/Paks/* /storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks &> /dev/null
+cp -R /data/data/com.termux/files/home/mybaby/pytransform/mods/Paks/* /storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks &> /dev/null
 sleep 4
 echo " "
 am start -n com.pubg.krmobile/com.epicgames.ue4.SplashActivity
